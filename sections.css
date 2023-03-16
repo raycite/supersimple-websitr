@@ -1,0 +1,229 @@
+.about-me{
+    width: 100%;
+    padding: 5px 5%;
+    background-color: #191919;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.about-me img{
+    height: auto;
+    width: 400px;
+}
+.about-text{
+    width: 550px;
+    margin-bottom: 10px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text h5 span{
+    color: rgba(0, 128, 0, 0.998);
+}
+.about-text p{
+    color: rgba(132, 190, 132, 0.856) ;
+    margin-bottom: 25px;
+}
+.about-text button{
+   background-color: rgba(0, 128, 0, 0.998); 
+   color: white; 
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+   transition: 0.4s;
+}
+.about-text button:hover{
+   background: transparent;
+   border: 2px solid;
+   cursor: pointer;
+   border-color: rgba(0, 128, 0, 0.998);
+}
+
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 5px 5%;
+    background-size: cover;
+}
+
+.title h2{
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400PX;
+}
+
+.card{
+    height: 350px;
+    width: 320px;
+    padding: 25px 40px;
+    background: #191919 ;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+
+
+.card i{
+    color: green;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    
+}
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: rgba(170, 228, 170, 0.856);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: rgba(0, 128, 0, 0.998);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: .4s;
+    padding: 9px 22px;
+
+}
+.card .button:hover{
+    background: transparent;
+    border: 2px solid;
+    cursor: pointer;
+    border-color: rgba(0, 128, 0, 0.998);
+     
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 5%;
+
+}
+.contact-me p{
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 25px;
+
+}
+.contact-me .button-two{
+    background-color: rgba(0, 128, 0, 0.998); 
+   color: white; 
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+   transition: 0.4s;
+
+}
+.contact-me .button-two:hover{
+    background: transparent;
+   border: 2px solid;
+   cursor: pointer;
+   border-color: rgba(0, 128, 0, 0.998);
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5%;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+footer p:nth-child(2){
+    color: rgb(177, 244, 177);
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social{
+    display: flex;
+
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.end{
+    position: absolute;
+    color: green;
+    font-size: 14px;
+    bottom: 25px;
+
+}

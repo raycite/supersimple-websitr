@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raycite</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="sections.css">
+    <link rel="stylesheet" href="login.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <div class="logo">
+               <span class="ray">Ray</span><span class="cite">cite</span>
+            </div>
+        </div>
+
+        <div class="middle">
+            <nav>
+                <ul id="MenuItem">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>             
+            </nav>
+        </div>
+        <div class="right">
+            <nav>
+                    <ul id="MenuItems">
+                        <li>
+                            <button>
+                                <a class="loginbtn"onclick="document.getElementById('login-form').style.display='block'"
+                                style="width: auto;">Login</a>
+                            </button>
+                        </li>
+                       
+                        
+                    </ul>
+                    <a href="#" class="don-btn anim">Download App</a>
+            </nav>  
+            
+        </div>
+    </div>
+
+    <!---General Page--> 
+    <div style="position: relative;" class="hero">
+        
+        <!--!log in form----->
+        <div style="
+        position: absolute;
+        right: 500px;" id="login-form" class="login-page">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button
+                    type="button"onclick="login()"class="toggle-btn">Log In
+                    </button>
+                    <button
+                    type="button"onclick="register()" class="toggle-btn">Register
+                    </button>
+                </div>
+                <form id="login" class="input-group-login">
+                    <input type="text"class="input-field" placeholder="Email Id" aria-required>
+                    <input type="password" class="input-field"placeholder="Enter Password"aria-required>
+                    <input type="checkbox" class="check-box"><span >Remember Password</span> 
+                    <button type="submit" class="submit-btn">Log in</button>  
+                </form>
+                <form id="register"class="input-group-register">
+                    <input type="text" class="input-field"placeholder="First Name"aria-required>
+                    <input type="text" class="input-field"placeholder="Last Name"aria-required>
+                    <input type="email" class="input-field"placeholder="Email Id"aria-required>
+                    <input type="password" class="input-field"placeholder="Enter Password"aria-required>
+                    <input type="password" class="input-field"placeholder="Confirm Password"aria-required>
+                    <input type="checkbox" class="check-box"><span >I agree to the terms and conditions</span>
+                    <button type="submit" class="submit-btn">Register 
+                    </button>
+                </form>
+        
+            </div>
+        
+        </div>
+
+
+        <div class="content">
+            <h1 class="anim">Make <br>New Friends</h1>
+            <p class="anim">Socially is a new social media platform to make new friends <br> online
+                in the world. <br> Now let's explore all its amazing features.
+            </p>
+            <a href="#" class="don-btn anim">Join Now</a>
+        </div>
+    
+        <div class="position_abs anim">
+            <p class="info"> How are you doing, Raymond
+            </p>
+           
+        </div>
+        
+    </div>
+    <section class="about-me">
+        <div class="main">
+            <img src="images/RAy_pic.png" alt="">
+        
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h5>Developer <span>& Design</span></h5>
+        <p>Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Et, perferendis 
+            exercitationem excepturi dolores placeat neque 
+            adipisci iure consectetur id? Odit, obcaecati 
+            quidem? Quos aliquam sunt ratione impedit debitis
+             consequuntur exercitationem?Lorem ipsum dolor sit amet 
+             consectetur adipisicing elit. Et, perferendis 
+             exercitationem excepturi dolores placeat neque 
+             adipisci iure consectetur </p>
+             <button type="button">Let's talk</button>
+        </div>
+    </div>
+    </section>
+    </div>
+    <!-----------service section start--------->
+    <div class="service">
+        <div class="title"> 
+            <h2>Our service </h2>
+        </div>
+    
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Quaerat pariatur magni obcaecati
+                        incidunt quidem facere magnam hic 
+                        molestiae recusandae ipsa dolorum 
+                       
+                    </p>
+                    <p><a class="button" href= "#">Read more </a></p>
+                </div>
+            </div>
+        
+    
+            <div class="card">
+                <i class="fa-regular fa-user"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>
+                    Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. 
+                    Quaerat pariatur magni obcaecati
+                    incidunt quidem facere magnam hic 
+                    molestiae recusandae ipsa dolorum 
+                
+                    </p>
+                    <p><a class="button" href= "#">Read more </a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icons">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>
+                    Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. 
+                    Quaerat pariatur magni obcaecati
+                     incidunt quidem facere magnam hic 
+                     molestiae recusandae ipsa dolorum 
+                    
+                    </p>
+                    <p><a class="button" href= "#">Read more </a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----Contact Me-->
+<div class="contact-me">
+    <p>Let me get You A Beautiful Website.</p>
+    <a class="button-two" href="#">Hire Me</a>
+</div>
+
+<!---Footer start-->
+<footer>
+    <p>Raymond Ntow</p>
+    <p>For more HTML, CSS and coding tutorial- please click 
+        on the link below to subscribe to my channel:
+    </p>
+    <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+    </div>
+    <p class="end">CopyRight By Raymond Ntow</p>
+</footer>
+
+
+<script>
+    var x=document.getElementById('login');
+var y=document.getElementById('register');
+var z=document.getElementById('btn');
+function register(){
+    x.style.left='-400px';
+    y.style.left='50px';
+    z.style.left='110px';
+}
+function login(){
+    x.style.left='50px';
+    y.style.left='450px';
+    z.style.left='0px';
+}
+
+
+
+var modal = document.getElementById('login-form');
+window.onclick = function(event){
+    if (event.target == modal)
+    {
+        modal.style.display = "none";
+    }
+}
+  
+</script>
+</body>
+</html>
+</body>
+</html>
